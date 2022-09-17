@@ -24,3 +24,18 @@ string[] FillStringArray(int n)
     }
     return array;
 }
+
+string[] SortArray(string[] arr, int m)
+{
+    string[] sortArray = new string[arr.Length];
+    int count = -1;
+    for( int i = 0; i < arr.Length; i++)
+    {
+        while(arr[i].Length <= m)
+        {
+            count++;
+            sortArray[count] = arr[i];
+        }
+    }
+    return sortArray;
+}
