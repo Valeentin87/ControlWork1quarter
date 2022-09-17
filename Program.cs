@@ -29,9 +29,9 @@ string[] SortArray(string[] arr, int m)
 {
     string[] sortArray = new string[arr.Length];
     int count = -1;
-    for( int i = 0; i < arr.Length; i++)
+    for (int i = 0; i < arr.Length; i++)
     {
-        while(arr[i].Length <= m)
+        while (arr[i].Length <= m)
         {
             count++;
             sortArray[count] = arr[i];
@@ -39,4 +39,16 @@ string[] SortArray(string[] arr, int m)
     }
     Array.Resize(ref sortArray, count - 1);
     return sortArray;
+}
+
+void PrintArray(string[] array)
+{
+    Console.Write("[");
+    for (int i = 0; i < (array.Length - 1); i++)
+    {
+        Console.Write($"{array[i]} , ");
+    }
+    int a = array.Length - 1;
+    Console.Write($"{array[a]} ]");
+
 }
