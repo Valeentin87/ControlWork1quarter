@@ -37,5 +37,6 @@ string[] SortArray(string[] arr, int m)
             sortArray[count] = arr[i];
         }
     }
+    Array.Resize(ref sortArray, count - 1);
     return sortArray;
 }
