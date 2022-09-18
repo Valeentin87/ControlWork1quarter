@@ -8,4 +8,4 @@
 
 1. *Блок-схема решения задачи (файл типа *.json) можно открыть с помощью редактора https://programforyou.ru/block-diagram-redactor
 
-2. Файл **BlockDiagram.png** иллюстрирующий алгоритм решения задачи ![блок-схема](ControlWork1quarter/BlockDiagram.png)
+2. Файл **BlockDiagram.png** иллюстрирующий алгоритм решения задачи ![блок-схема](https://github.com/Valeentin87/ControlWork1quarter.git/BlockDiagram.png)
